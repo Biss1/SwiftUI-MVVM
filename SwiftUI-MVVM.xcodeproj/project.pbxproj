@@ -10,10 +10,17 @@
 		DCBFF9A72439D8F7004313E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9A62439D8F7004313E4 /* AppDelegate.swift */; };
 		DCBFF9A92439D8F7004313E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9A82439D8F7004313E4 /* SceneDelegate.swift */; };
 		DCBFF9AB2439D8F7004313E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9AA2439D8F7004313E4 /* ContentView.swift */; };
-		DCBFF9AD2439D8F9004313E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBFF9AC2439D8F9004313E4 /* Assets.xcassets */; };
 		DCBFF9B02439D8F9004313E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBFF9AF2439D8F9004313E4 /* Preview Assets.xcassets */; };
 		DCBFF9B32439D8F9004313E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBFF9B12439D8F9004313E4 /* LaunchScreen.storyboard */; };
 		DCBFF9BE2439D8F9004313E4 /* SwiftUI_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9BD2439D8F9004313E4 /* SwiftUI_MVVMTests.swift */; };
+		DCBFF9CA2439D9D8004313E4 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9C92439D9D8004313E4 /* DataService.swift */; };
+		DCBFF9CD2439DBC3004313E4 /* PlacesOverviewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9CC2439DBC3004313E4 /* PlacesOverviewVM.swift */; };
+		DCBFF9CF2439DBD3004313E4 /* PlacesOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9CE2439DBD3004313E4 /* PlacesOverviewView.swift */; };
+		DCBFF9D12439DCF3004313E4 /* PlaceImageListItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9D02439DCF3004313E4 /* PlaceImageListItemVM.swift */; };
+		DCBFF9D32439DD03004313E4 /* PlaceListItemVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBFF9D22439DD03004313E4 /* PlaceListItemVM.swift */; };
+		DCD8DB0624424F0C0065BC0D /* TableSectionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8DB0524424F0C0065BC0D /* TableSectionVM.swift */; };
+		DCD8DB09244250730065BC0D /* CollectionUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8DB08244250730065BC0D /* CollectionUtils.swift */; };
+		DCF86DDD244A2E8F00B06309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF86DDC244A2E8F00B06309 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +38,20 @@
 		DCBFF9A62439D8F7004313E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCBFF9A82439D8F7004313E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCBFF9AA2439D8F7004313E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DCBFF9AC2439D8F9004313E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBFF9AF2439D8F9004313E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCBFF9B22439D8F9004313E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBFF9B42439D8F9004313E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCBFF9B92439D8F9004313E4 /* SwiftUI-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBFF9BD2439D8F9004313E4 /* SwiftUI_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MVVMTests.swift; sourceTree = "<group>"; };
 		DCBFF9BF2439D8F9004313E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBFF9C92439D9D8004313E4 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DCBFF9CC2439DBC3004313E4 /* PlacesOverviewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOverviewVM.swift; sourceTree = "<group>"; };
+		DCBFF9CE2439DBD3004313E4 /* PlacesOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesOverviewView.swift; sourceTree = "<group>"; };
+		DCBFF9D02439DCF3004313E4 /* PlaceImageListItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceImageListItemVM.swift; sourceTree = "<group>"; };
+		DCBFF9D22439DD03004313E4 /* PlaceListItemVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListItemVM.swift; sourceTree = "<group>"; };
+		DCD8DB0524424F0C0065BC0D /* TableSectionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionVM.swift; sourceTree = "<group>"; };
+		DCD8DB08244250730065BC0D /* CollectionUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionUtils.swift; sourceTree = "<group>"; };
+		DCF86DDC244A2E8F00B06309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +93,14 @@
 		DCBFF9A52439D8F7004313E4 /* SwiftUI-MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				DCBFF9C82439D9CA004313E4 /* data */,
+				DCBFF9CB2439DBA5004313E4 /* features */,
+				DCD8DB07244250580065BC0D /* utils */,
 				DCBFF9A62439D8F7004313E4 /* AppDelegate.swift */,
 				DCBFF9A82439D8F7004313E4 /* SceneDelegate.swift */,
 				DCBFF9AA2439D8F7004313E4 /* ContentView.swift */,
-				DCBFF9AC2439D8F9004313E4 /* Assets.xcassets */,
 				DCBFF9B12439D8F9004313E4 /* LaunchScreen.storyboard */,
+				DCF86DDC244A2E8F00B06309 /* Assets.xcassets */,
 				DCBFF9B42439D8F9004313E4 /* Info.plist */,
 				DCBFF9AE2439D8F9004313E4 /* Preview Content */,
 			);
@@ -105,6 +122,34 @@
 				DCBFF9BF2439D8F9004313E4 /* Info.plist */,
 			);
 			path = "SwiftUI-MVVMTests";
+			sourceTree = "<group>";
+		};
+		DCBFF9C82439D9CA004313E4 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				DCBFF9C92439D9D8004313E4 /* DataService.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		DCBFF9CB2439DBA5004313E4 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				DCBFF9CE2439DBD3004313E4 /* PlacesOverviewView.swift */,
+				DCBFF9CC2439DBC3004313E4 /* PlacesOverviewVM.swift */,
+				DCBFF9D02439DCF3004313E4 /* PlaceImageListItemVM.swift */,
+				DCBFF9D22439DD03004313E4 /* PlaceListItemVM.swift */,
+				DCD8DB0524424F0C0065BC0D /* TableSectionVM.swift */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		DCD8DB07244250580065BC0D /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DCD8DB08244250730065BC0D /* CollectionUtils.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBFF9B32439D8F9004313E4 /* LaunchScreen.storyboard in Resources */,
+				DCF86DDD244A2E8F00B06309 /* Assets.xcassets in Resources */,
 				DCBFF9B02439D8F9004313E4 /* Preview Assets.xcassets in Resources */,
-				DCBFF9AD2439D8F9004313E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +254,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBFF9A72439D8F7004313E4 /* AppDelegate.swift in Sources */,
+				DCD8DB09244250730065BC0D /* CollectionUtils.swift in Sources */,
 				DCBFF9A92439D8F7004313E4 /* SceneDelegate.swift in Sources */,
+				DCBFF9D12439DCF3004313E4 /* PlaceImageListItemVM.swift in Sources */,
+				DCBFF9D32439DD03004313E4 /* PlaceListItemVM.swift in Sources */,
+				DCBFF9CD2439DBC3004313E4 /* PlacesOverviewVM.swift in Sources */,
+				DCBFF9CF2439DBD3004313E4 /* PlacesOverviewView.swift in Sources */,
+				DCD8DB0624424F0C0065BC0D /* TableSectionVM.swift in Sources */,
 				DCBFF9AB2439D8F7004313E4 /* ContentView.swift in Sources */,
+				DCBFF9CA2439D9D8004313E4 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
